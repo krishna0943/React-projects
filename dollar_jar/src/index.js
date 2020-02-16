@@ -13,7 +13,7 @@ const routing = (
     <Router>
         <div>
             <Route exact path="/" component={Home}/>
-            <Route path="/Users" component={App}/>
+            <Route path="/user" component={App}/>
         </div>
     </Router>
 )
